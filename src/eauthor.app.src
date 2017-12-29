@@ -1,6 +1,6 @@
 {application
 ,eauthor
-,[{description, "A library for adding function authors information in compiled modules."}
+,[{description, "Library for adding information of code authors to compiled modules."}
  ,{vsn, "17.12.3"}
  ,{applications, [kernel, stdlib]}
  ,{modules, [eauthor]}

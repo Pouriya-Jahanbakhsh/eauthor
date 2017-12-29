@@ -1,5 +1,5 @@
 # eauthor
-A library for adding function authors information in compiled Erlang modules.
+A library for adding information of code authors to compiled Erlang modules.
 
 # Example
 Suppose we have following module named `test.erl`:
