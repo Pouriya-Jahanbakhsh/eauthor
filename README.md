@@ -27,10 +27,10 @@ Before compile, define attribute
 in your module or include `eauthor`'s header file `eauthor.hrl` in your module
 ```erlang
 -include("PATH/TO/eauthor.hrl").
-%% or if author is part of your project
+%% or if eauthor is part of your project
 -include_lib("eauthor/include/eauthor.hrl").
 ```
-or define flag `{parse_transform, eauthor}` for compiler.
+or define flag `{parse_transform, eauthor}` for compiler.  
 After compile, our module has new function named `authors/0`
 ```erlang
 %% For doing this, compiler should access to compiled eauthor module.
