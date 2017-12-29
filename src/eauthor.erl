@@ -33,7 +33,7 @@
 %% @author   Pouriya Jahanbakhsh <pouriya.jahanbakhsh@gmail.com>
 %% @version  17.12.30
 %% @doc
-%%           A library for adding function authors information in compiled modules.
+%%           A library for adding information of code authors in compiled modules.
 %% @end
 %% -------------------------------------------------------------------------------------------------
 -module(eauthor).
